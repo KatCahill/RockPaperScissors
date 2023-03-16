@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="cont">
+        <div class="header">
+            <h1><span>Rock, Paper, Scissors</h1><span></h1>
+        </div>
+      <div class="ui segment">
+        <div class="ui two column very relaxed grid">
+          <div class="center aligned content column">
+            <h2>Player</h2>
+            <div class="image">
+                <img src="media/paper1.png" id="paper-image"/>
+                <img src="media/scissors1.png" id="scissors-image"/>
+                <img src="media/rock1.png" id="rock-image"/>
+            </div>
+          </div>
+          <div class="center aligned content column">
+            <h2>Computer</h2>
+            <div class="image">
+                <img src="media/paper2.png" id="paper-image2"/>
+                <img src="media/scissors2.png" id="scissors-image2"/>
+                <img src="media/rock2.png" id="rock-image2"/>
+            </div>
+          </div>
+        </div>
+        <div class="ui vertical divider">vs</div>
+      </div>
+      <div class="buttons">
+        <button onclick="play('Rock')" class="ui inverted yellow button">Rock</button>
+        <button onclick="play('Paper')" class="ui inverted yellow button">Paper</button>
+        <button onclick="play('Scissors')" class="ui inverted yellow button">Scissors</button>
+      </div>
+    <div class="result">
+        <h3 id="r"></h3>
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

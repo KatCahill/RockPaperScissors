@@ -1,0 +1,94 @@
+body{
+    width:100%;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,63,121,1) 35%, rgba(0,212,255,1) 100%);       
+}
+.header{
+    margin-bottom: 50px;
+    margin-top:100px;   
+    padding:0;
+}
+h1 span{
+    color: #edc309;
+    font-size: 70px;
+}
+h1,h2,div{
+    font-weight: 300px !important;
+    color: rgb(3, 9, 72);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+}
+h3 {
+    font-weight: 300px;
+    color:rgb(244, 162, 11);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+}
+.cont{
+    width:100%;
+    height: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ui.segment {
+    width: 60%;
+    background-color:#FEBE10;
+}
+.ui.vertical.divider {
+    font-size: 30px;
+}
+.ui.inverted.yellow.button{
+    padding: 8%;
+    margin: 10%;
+    font-size: 20px;
+}
+.result{
+    margin-top: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 2em;
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+}
+#paper-image{
+    display:none;
+    border-radius: 90%;
+   
+}
+#rock-image{
+    display:none;
+    border-radius: 90%;
+}
+#scissors-image{
+    display:flex;
+    border-radius: 85% !important;
+    border-color: black 1px solid;
+}
+#paper-image2{
+    display:none;
+    border-radius: 90%;  
+}
+#rock-image2{
+    display:flex;
+    border-radius: 90%; 
+}
+#scissors-image2{
+    display:none;
+    border-radius: 90%;  
+}
+.image{
+    display:flex;
+    align-items: center;
+    justify-content: center;   
+}
+.scissor-image{
+    display:none;
+    border-radius: 90%;
+}
